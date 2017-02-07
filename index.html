@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Udacity My Portfolio" />
+  <meta name="author" content="Enx Zhou">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
+  <meta itemprop="name" content="Udacity My Portfolio">
+  <meta itemprop="image" content="images/My_logo.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#307699">
+  <base target="_blank">
+  <title>My Design Mockup Portfolio</title>
+  <link rel="icon" type="image/png" sizes="100x100" href="images/My_logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!--  Header Section  -->
+  <header>
+    <div class="header_inner">
+      <a href="#" title="Home page" id="menu">
+        <img id="logo" src="images/cat_dog.svg" alt="My Logo">
+      </a>
+    </div>
+    <div class="name">
+      <h1>Enx Zhou</h1>
+      <h2>FRONT-END NINJA</h2>
+    </div>
+    <hr>
+  </header>
+  <!--  End Header Section  -->
+  
+  <main>
+    <picture class="homepage_image">
+      <source media="(min-width: 750px)" srcset="images/homepage_image-1600_large_2x.jpg 2x, images/homepage_image-800_large_1x.jpg" />
+      <source media="(min-width: 500px)" srcset="images/homepage_image-1000_medium.jpg" />
+      <img id="homepage_image" src="images/homepage_image-500_small.jpg" alt="Homepage Image">
+    </picture>
+
+    <article class="featured_work">
+      <h1>Featured Work</h1>
+      <section class="alignleft content">
+        <a class="link" href="https://github.com/EnxZhou/Udacity/tree/master/P3_design_mockup_portfolio/making_peach_ice_cream">
+          <figure>
+            <picture>
+              <source media="(min-width: 750px)" srcset="images/ice_cream-1600_large_2x.jpg 2x, images/ice_cream-800_large_1x.jpg" />
+              <source media="(min-width: 500px)" srcset="images/ice_cream-1000_medium.jpg" />
+              <img class="link_image" src="images/ice_cream-500_small.jpg" alt="Ice Cream">
+            </picture>
+            <figcaption>Making Peach Ice Cream</figcaption>
+          </figure>
+        </a>
+      </section>
+
+      <section class="aligncenter content">
+        <a class="link" href="https://github.com/EnxZhou/Udacity/tree/master/P3_design_mockup_portfolio/responsive_blog">
+          <figure>
+            <picture>
+              <source media="(min-width: 750px)" srcset="images/iPhone-1600_large_2x.jpg 2x, images/iPhone-800_large_1x.jpg" />
+              <source media="(min-width: 500px)" srcset="images/iPhone-1000_medium.jpg" />
+              <img class="link_image" src="images/iPhone-500_small.jpg" alt="iPhone">
+            </picture>
+            <figcaption>Responsive Blog</figcaption>
+          </figure>
+        </a>
+      </section>
+
+      <section class="alignright content">
+        <a class="link" href="https://github.com/EnxZhou/Udacity/tree/master/P3_design_mockup_portfolio/The_Brighton_Times">
+          <figure>
+            <picture>
+              <source media="(min-width: 750px)" srcset="images/envelope-1600_large_2x.jpg 2x, images/envelope-800_large_1x.jpg" />
+              <source media="(min-width: 500px)" srcset="images/envelope-1000_medium.jpg" />
+              <img class="link_image" src="images/envelope-500_small.jpg" alt="Envelope">
+            </picture>
+            <figcaption>The Brighton Times</figcaption>
+          </figure>
+        </a>
+      </section>
+    </article>
+
+    <footer>
+      <a href="https://github.com/EnxZhou/My_portfolio" title="View source for this page on GitHub" id="viewSource"><img src="images/mark_github_512.png" alt="github icon"> View source on GitHub</a>
+    </footer>
+  </main>   
+</body>
+</html>

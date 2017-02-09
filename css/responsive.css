@@ -4,9 +4,18 @@
 
 @media screen and (max-width: 549px) {
   
-  main, header, body, main, header {
+  main, 
+  header, 
+  body, 
+  main, 
+  header {
     width: 70vw;
   }
+  /*Try to use a class/ID/selector per line:
+  h1,
+  h2 {
+  //
+  }*/
   hr {
     width: 110%;
     margin-left: -5%;
@@ -40,10 +49,10 @@
     order: 2;
     width: 100%;
   }
-  #homepage_image {
+  .homepage_image {
     width: 70vw;
   }
-  #logo {
+  .logo {
     height: 30px;
     margin-top: 30px;
     width: 30px;
@@ -52,7 +61,11 @@
 
 @media screen and (min-width: 550px) {
 
-  main, header, body, main, header {
+  main, 
+  header, 
+  body, 
+  main, 
+  header {
     width: 70vw;
   }
   hr {
@@ -88,10 +101,10 @@
     order: 2;
     width: 50%;
   }
-  #homepage_image {
+  .homepage_image {
     width: 70vw;
   }
-  #logo {
+  .logo {
     height: 6vw;
     margin-top: 5vw;
     width: 6vw;
@@ -99,7 +112,13 @@
 }
 
 @media screen and (min-width: 850px) {
-  main, header, body, main, header, #homepage_image {
+  
+  main, 
+  header, 
+  body, 
+  main, 
+  header, 
+  .homepage_image {
     width: 600px;
   }
   hr {
@@ -126,7 +145,7 @@
   .featured_work h1 {
     font-size: 24px;
   }
-  #logo {
+  .logo {
     height: 50px;
     margin-top: 30px;
     width: 50px;

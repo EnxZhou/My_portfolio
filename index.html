@@ -11,10 +11,11 @@
   <meta id="theme-color" name="theme-color" content="#307699">
   <base target="_blank">
   <title>My Design Mockup Portfolio</title>
-  <link rel="icon" type="image/png" sizes="100x100" href="images/My_logo.png">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="icon" sizes="100x100" href="images/My_logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/responsive.css">
   <link href="css/styles.css" rel="stylesheet">
+  <!-- No need to use type for HTML5 -->
 </head>
 <body>
 
@@ -22,7 +23,9 @@
   <header>
     <div class="header_inner">
       <a href="#" title="Home page" id="menu">
-        <img id="logo" src="images/cat_dog.svg" alt="My Logo">
+        <img class="logo" src="images/cat_dog.svg" alt="My Logo">
+        <!-- Normally classes are preferred over ID's. Please check this article.
+        Suggestion from Internet: ID is for JavaScript, Class is for CSS. --> 
       </a>
     </div>
     <div class="name">
@@ -34,10 +37,10 @@
   <!--  End Header Section  -->
   
   <main>
-    <picture class="homepage_image">
+    <picture>
       <source media="(min-width: 750px)" srcset="images/homepage_image-1600_large_2x.jpg 2x, images/homepage_image-800_large_1x.jpg" />
       <source media="(min-width: 500px)" srcset="images/homepage_image-1000_medium.jpg" />
-      <img id="homepage_image" src="images/homepage_image-500_small.jpg" alt="Homepage Image">
+      <img class="homepage_image" src="images/homepage_image-500_small.jpg" alt="Homepage Image">
     </picture>
 
     <article class="featured_work">
@@ -83,7 +86,7 @@
     </article>
 
     <footer>
-      <a href="https://github.com/EnxZhou/My_portfolio" title="View source for this page on GitHub" id="viewSource"><img src="images/mark_github_512.png" alt="github icon"> View source on GitHub</a>
+      <a href="https://github.com/EnxZhou/My_portfolio" title="View source for this page on GitHub" class="viewSource"><img src="images/mark_github_512.png" alt="github icon"> View source on GitHub</a>
     </footer>
   </main>   
 </body>

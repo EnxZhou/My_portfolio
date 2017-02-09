@@ -2,19 +2,24 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+  /*Prefer to use double quotes instead of single ones.*/
   font-size: 16px;
   color: #2d3c49;
   margin: 0 auto;
 }
+/*Separate style rules with a blank line.*/
+
 header {
   margin: 0 auto;
   padding-bottom: 1em;
 }
 
 footer {
-  margin: 1em 0 1em 0;
+  margin: 1em 0;
+  /*Here you can simplify to margin: 1em 0;.*/
 }
 
 hr {
@@ -48,7 +53,8 @@ figure figcaption {
 }
 
 .name h2 {
-  font-weight: 150;
+  font-weight: 200;
+  /*150 is not a valid font-weight value. You can use 100 or 200.*/
 }
 
 .featured_work {
@@ -78,28 +84,28 @@ figure figcaption {
   color: #7d97ad;
 }
 
-#logo {
+.logo {
   -webkit-filter: hue-rotate(90deg);
   filter: hue-rotate(30deg);
 }
 
-#logo:hover {
+.logo:hover {
   -webkit-filter: drop-shadow(3px 3px 3px #ddd);
   filter: drop-shadow(3px 3px 3px #ddd);
 }
 
-#homepage_image {
+.homepage_image {
   display: block;
   margin: 0 auto;
 }
 
-#viewSource img {
+.viewSource img {
   display: inline-block;
   width: 1em;
   vertical-align: middle;
 }
 
-#viewSource {
+.viewSource {
   border-top: 1px solid #7d97ad;
   display: block;
   padding: .5em 0 0 0;
@@ -107,3 +113,5 @@ figure figcaption {
   text-shadow: 1px 1px 1px #aaa;
   text-align: center;
 }
+/*Normally classes are preferred over ID's. Please check this article.
+Suggestion from Internet: ID is for JavaScript, Class is for CSS. */
